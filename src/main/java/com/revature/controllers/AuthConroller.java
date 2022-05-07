@@ -10,7 +10,7 @@ import com.revature.services.AuthService;
 
 import io.javalin.http.Handler;
 
-public class AuthController {
+public class AuthConroller {
 
 	//we need an AuthService object to use it's login method
 	AuthService as = new AuthService();
